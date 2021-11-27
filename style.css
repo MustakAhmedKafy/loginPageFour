@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, .login__page{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+@media (max-width: 991px) {
+  
+
+}
+
+@media (max-width: 576px) { 
+  .login-img  {
+        display: none;
+    }
+    .row{
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) { 
+    .desktop-area{
+    display: none;
+    }
+    .col-md-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}

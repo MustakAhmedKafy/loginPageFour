@@ -1,0 +1,27 @@
+$primary: #11466e;
+$ackground-color: #bfbfbf59;
+$focus: 0 0 0 0.1rem rgba(17, 70, 110, 0.7);
+
+.login .form-control {
+  padding: 1rem .75rem;
+  font-size: 14;
+  line-height: 1.5;
+  color: $focus;
+  background-color: $ackground-color;
+  border: 0px;
+  border-radius: 7px !important;
+  transition: .5s;
+  padding: 20px;
+}
+
+
+// focus
+.login .form-control:focus {
+  color: #495057;
+  background-color: $ackground-color;
+  border:0px;
+  outline: 0;
+  box-shadow: $focus;
+  border-radius: 7px !important;
+  transition: .5s;
+}

@@ -1,0 +1,56 @@
+@import './button';
+@import './checkbox';
+@import './input';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Work+Sans:wght@100;300&display=swap');
+
+body{
+font-family: 'Work Sans', sans-serif;
+}
+
+$primary: #11466e;
+.login{
+ & a{
+   text-decoration: none;
+   color: $primary;
+ } 
+}
+
+.login-img{
+  background-color:  #d9d9d9 !important;
+}
+
+// login  button logo
+.login button img {
+  height: 25px;
+  width: 25px;
+}
+
+// horizontal line
+
+  h6 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  h6:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #bfbfbf;
+    margin: auto;
+    display: flex;
+    display: flex;
+    margin-left: 15px;
+
+  }
+
+   h6:before {
+     content: "";
+     flex: 1 1;
+     border-bottom: 1px solid #bfbfbf;
+     margin: auto;
+     display: flex;
+     margin-right: 15px;
+   }
+

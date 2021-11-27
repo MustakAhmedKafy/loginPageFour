@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>login</title>
+    <!-- fonts awesome -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/blue-globe-png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="login__page">
+    <!--  navbar area  -->
+    <section class="login">
+        <div class="row ">
+            <!-- col-md-6 -->
+            <div class="col-md-6 desktop-area">
+                <div class="login-img">
+                    <!-- logo -->
+                    <img class="mt-5 pl-5 w-50" src="img/Logo-01.svg" alt="" />
+                    <!-- banner img -->
+                    <div class="desktop-img">
+                        <img src="img/login.png" class="w-100" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <!-- col-md-6 -->
+            <div class="col-md-6 align-self-center">
+                <div class="px-5">
+                    <!-- logo for mobile -->
+                    <img src="img/Logo-01.svg" class="d-lg-none mobile-logo w-75 my-5" alt="" />
+                    <p class="h2">Get's started</p>
+                    <p>Don't have an account? Sign up</p>
+                    <div class="account">
+                        <!-- google login button -->
+                        <a href="">
+                            <button type="button" class="btn btn-primary mt-2 mr-3"><img src="img/google.svg" alt="" />
+                                Sign in with Google </button>
+                        </a>
+                        <!-- facebook login button -->
+                        <a href="">
+                            <button type="button" class="btn btn-primary mt-2"> <img src="img/facebook.svg" alt="">Sign
+                                up with Facebook</button>
+                        </a>
+                    </div>
+                    <!-- horizontal line -->
+                    <div class="or mt-3">
+                        <h6>OR</h6>
+                    </div>
+                    <!-- from area start -->
+                    <form>
+                        <div class="form-group">
+                            <!-- Email address -->
+                            <label for="exampleInputEmail1">Email address </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder=" mustak@neotericit.com " />
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <!-- Password -->
+                            <label for="exampleInputPassword1">Password</label>
+                            <label class="float-right" for="exampleInputPassword1"><a href="">Forget
+                                    password</a></label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password" />
+                        </div>
+                        <!-- checkbox -->
+                        <div class="custom-control custom-checkbox mb-3">
+                            <input type="checkbox" class="custom-control-input" id="customControlValidation1"
+                                required />
+                            <label class="custom-control-label" for="customControlValidation1">I agree this
+                                platfrom's
+                                <a href="">Terms of Services</a> &
+                                <a href="">Privacy Policy</a></label>
+                            <div class="invalid-feedback">
+                                Example invalid feedback text
+                            </div>
+                        </div>
+                        <!-- register button -->
+                        <div class="login-button">
+                            <a href="#">
+                                <button type="button" class="btn">Login</button>
+                            </a>
+                        </div>
+                        <!-- register button -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--   JS  file area start  -->
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--   JS  file area  end-->
+</body>
+
+</html>

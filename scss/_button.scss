@@ -1,0 +1,67 @@
+$primary: #11466e;
+$border-color: #155484;
+$color: #fff;
+$focus: 0 0 0 0.1rem rgba(17, 70, 110, 0.7);
+
+.btn-primary {
+  color: $color;
+  background-color: $primary;
+  border-color: $border-color;
+  border-radius: 7px;
+}
+ 
+.account .btn-primary {
+  color: $primary;
+  background-color: #fff;
+  border-color: $border-color;
+}
+
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: $focus;
+  border: 1px solid $border-color;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: $color;
+  background-color: $primary;
+  border-color: $border-color;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+  color: $primary;
+  background-color: $color;
+  border-color: $border-color;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: $focus;
+}
+
+// login button
+
+.login-button button {
+  background-image: linear-gradient(-180deg, $primary 0%, $border-color 100%);
+  transition: .8s;
+  border-radius: 10px !important;
+  // font-size: 20px;
+  color: $color;
+  padding: 8px 35px!important;
+}
+
+.login-button button:hover {
+  background-image: linear-gradient(-180deg, $border-color 0%, $primary 100%);
+  transition: .8s;
+}
+
+.login-button .btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: $focus;
+}
